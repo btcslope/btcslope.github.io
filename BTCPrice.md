@@ -23,7 +23,7 @@ css:
 	<div class="section-title">Bitcoin Price</div>
 	
   {% raw %}
-  <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="/plots/BTCPrice.html" height="525" width="100%"></iframe>
+  <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="/plots/BTCPrice.html" height="100%" width="100%"></iframe>
   {% endraw %}
 
   <a href="/contact" class="contact-me-btn actionbtn">
