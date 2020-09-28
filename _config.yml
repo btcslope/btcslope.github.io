@@ -18,8 +18,7 @@ navbar-links:
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
-    - BTC Price: "/plots/BTCPrice.html"
-    - BTC Price: "/BTCPrice.md"
+    - BTC Price: "BTCPrice"
   Author's home: "https://deanattali.com"
 
 # --- Logo --- #
