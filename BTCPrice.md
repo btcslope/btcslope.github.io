@@ -35,6 +35,11 @@ css:
 </div>
 
 
+<div class="embed-responsive embed-responsive-4by3">
+  <iframe frameborder='0' scrolling='no' src='//plot.ly/~bluprince13/3.embed?autosize=true&link=false&modebar=false&width=100%' class="embed-responsive-item" style="border:none;" ></iframe>
+</div>
+
+
 
 
 
