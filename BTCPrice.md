@@ -35,10 +35,12 @@ css:
 </div>
 
 <div class="embed-responsive embed-responsive-4by3">
+  <div class="section-title">Bitcoin Price</div>
   <iframe frameborder='0' scrolling='no' src='/plots/BTCPrice.html?autosize=true&link=false&modebar=false&width=100%' class="embed-responsive-item" style="border:none;" ></iframe>
 </div>
 
 <div class="embed-responsive embed-responsive-4by3">
+  <div class="section-title">Bitcoin Price</div>
   <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="/plots/BTCPrice.html" width="100%" class="embed-responsive-item" style="border:none;" ></iframe>
 </div>
 
