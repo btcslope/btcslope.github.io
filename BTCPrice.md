@@ -4,8 +4,6 @@ title: BTCSlope
 subtitle: Bitcoin Price
 meta-title: "Hi, I'm BTCSlope"
 use-site-title: true
-css:
-  - /assets/css/index.css
 full-width: true
 ---
 
