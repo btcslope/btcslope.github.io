@@ -7,6 +7,8 @@ full-width: true
 js: 
   - /assets/js/TestChart.js
   - /assets/js/TestChart2.js
+  - /assets/js/TestChart3.js
+  - /assets/js/TestChart4.js
 ext-js: 
   - //cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.4/Chart.min.js
   - //cdn.jsdelivr.net/npm/chart.js
