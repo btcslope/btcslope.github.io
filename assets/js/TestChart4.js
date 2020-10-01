@@ -158,8 +158,6 @@ config.data.datasets.forEach(function(dataset) {
   dataset.pointBackgroundColor = randomColor(0.5);
   dataset.pointBorderWidth = 1;
 });
-window.onload = function() {
-  var ctx = document.getElementById("myChart4").getContext("2d");
-  window.myLine = new Chart(ctx, config);
-};
 
+var ctx = document.getElementById("myChart4").getContext("2d");
+var myChart4 = new Chart(ctx, config);
