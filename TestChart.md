@@ -53,6 +53,7 @@ css:
       <h2>Chart.js — Line Chart Demo 4</h2>	
     	<div style="width:75%;">
         	<button onclick="resetZoom()">Reset Zoom</button>
+		<button id="drag-switch" onclick="toggleDragMode()">Disable drag mode</button>
         	<canvas id="myChart4"></canvas>
     	</div>
     </div>
