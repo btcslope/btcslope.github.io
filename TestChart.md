@@ -4,6 +4,7 @@ title: BTCSlope
 subtitle: Bitcoin Price
 meta-title: "Hi, I'm BTCSlope"
 full-width: true
+js: /assets/js/TestChart.js
 css:
   - /assets/css/index.css
 ---
