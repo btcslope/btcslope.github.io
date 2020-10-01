@@ -50,13 +50,13 @@ css:
       </div>
     </div>
         
-   <div class="container">
+    <div class="container">
       <h2>Chart.js — Line Chart Demo 4</h2>	
         	<button onclick="resetZoom()">Reset Zoom</button>
         	<canvas id="myChart4"></canvas>
     </div>
     
-      <div class="container">
+    <div class="container">
       <h2>Chart.js — Line Chart Demo 5</h2>	
     	<div style="width:75%;">
         	<button onclick="resetZoom()">Reset Zoom</button>
