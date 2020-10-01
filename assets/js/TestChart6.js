@@ -76,9 +76,9 @@ var chart = new Chart(ctx, {
     }]
   },
   options: {
-    responsive: false,
+    responsive: true,
     legend: {
-      display: false
+      display: true
     },
     animation: false,
     scales: {
