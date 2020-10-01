@@ -9,6 +9,7 @@ js:
   - /assets/js/TestChart2.js
   - /assets/js/TestChart3.js
   - /assets/js/TestChart4.js
+  - /assets/js/TestChart6.js
 ext-js: 
   - //cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.4/Chart.min.js
   - //cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.min.js
@@ -55,7 +56,12 @@ css:
         	<canvas id="myChart4"></canvas>
     </div>
 
-    
+    <div class="container">
+      <h2>Chart.js — Line Chart Demo 6</h2>	
+        	<canvas id="myChart6"></canvas>
+    </div>
+
+
   <a href="/contact" class="contact-me-btn actionbtn">
     <span class="far fa-envelope" aria-hidden="true"></span>
     CONTACT
