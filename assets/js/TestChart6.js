@@ -42,7 +42,7 @@ Chart.controllers.LineWithLine = Chart.controllers.line.extend({
 });
 
 var ctx = document.getElementById('myChart6').getContext('2d');
-var chart = new Chart(ctx, {
+var myChart6 = new Chart(ctx, {
    type: 'LineWithLine',
    data: {
       labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul'],
