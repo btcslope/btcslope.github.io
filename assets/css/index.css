@@ -274,3 +274,9 @@ html, body { background: #cf91c8; }
   width: 80%;
   margin: 15px auto;
 }
+
+canvas {
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }
