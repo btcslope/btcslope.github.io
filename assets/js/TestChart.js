@@ -62,5 +62,13 @@ var myChart = new Chart(ctx, {
       display: true,
       text: "Test Chart"
     }
-  }
+  },
+    tooltips: {
+      mode: 'index',
+      intersect: false,
+    },
+   hover: {
+      mode: 'nearest',
+      intersect: true
+    },
 });
