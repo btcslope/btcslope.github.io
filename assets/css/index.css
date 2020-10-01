@@ -269,3 +269,8 @@ html, body { background: #cf91c8; }
 .actionbtn .far {
   margin-right: 0.3125rem;
 }
+
+.container {
+  width: 80%;
+  margin: 15px auto;
+}
