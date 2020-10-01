@@ -17,6 +17,7 @@ ext-js:
   - //cdn.jsdelivr.net/npm/chart.js@2.9.1
   - //cdn.jsdelivr.net/npm/hammerjs@2.0.8
   - //cdn.jsdelivr.net/npm/chartjs-plugin-zoom@0.7.7
+  - //canvasjs.com/assets/script/canvasjs.min.js
 css:
   - /assets/css/index.css
 ---
