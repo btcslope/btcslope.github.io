@@ -55,7 +55,7 @@ var chart = new Chart(ctx, {
       }]
    },
    options: {
-      responsive: false,
+      responsive: true,
       tooltips: {
          intersect: false
       },
