@@ -65,7 +65,7 @@ css:
     
     <div class="container">
       <h2>Chart.js — Line Chart Demo 7</h2>	
-	<canvas id="chartContainer"></canvas>
+	<div id="chartContainer" style="height: 360px; width: 98%; margin: 2%;"></div>
     </div>
 
   <a href="/contact" class="contact-me-btn actionbtn">
