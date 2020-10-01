@@ -11,6 +11,7 @@ css:
 ---
 
 
+<!-- Info from here: https://www.sitepoint.com/introduction-chart-js-2-0-six-examples/ --!>
 
 <div id="main-sections" style="margin-top:-30px;">
 
