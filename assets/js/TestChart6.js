@@ -65,6 +65,21 @@ var myChart6 = new Chart(ctx, {
                beginAtZero: true
             }
          }]
+      },
+    pan: {
+      enabled: true,
+      mode: "x",
+      speed: 100,
+      threshold: 100
+    },
+    zoom: {
+      enabled: true,
+      drag: false,
+      mode: "x",
+      limits: {
+        max: 10,
+        min: 0.5
       }
+    }
    }
 });
