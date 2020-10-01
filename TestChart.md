@@ -19,11 +19,7 @@ css:
 
 <!-- Info from here: https://www.sitepoint.com/introduction-chart-js-2-0-six-examples/ --!>
 
-<div id="main-sections" style="margin-top:-30px;">
 
-<div id="services-out" class="page-section">
-  <div id="services">
-	<div class="section-title">Test CHart</div>
 	
     <div class="container">
       <h2>Chart.js — Line Chart Demo</h2>
@@ -51,6 +47,4 @@ css:
     <span class="far fa-envelope" aria-hidden="true"></span>
     CONTACT
   </a>
-  
-  </div>
-</div>
+
