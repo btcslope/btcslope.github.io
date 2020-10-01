@@ -33,8 +33,8 @@ css:
     </div>
     
      <div class="container">
-      <h2>Chart.js — Line Chart Demo</h2>
-    	<canvas id="myChart2" width="400" height="400"></canvas>
+      <h2>Chart.js — Line Chart Demo 2</h2>
+    	<canvas id="myChart2"></canvas>
       </div>
     </div>
     
