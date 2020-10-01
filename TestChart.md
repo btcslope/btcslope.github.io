@@ -5,6 +5,7 @@ subtitle: Bitcoin Price
 meta-title: "Hi, I'm BTCSlope"
 full-width: true
 js: /assets/js/TestChart.js
+ext-js: //cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.4/Chart.min.js
 css:
   - /assets/css/index.css
 ---
