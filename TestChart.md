@@ -51,7 +51,7 @@ css:
     </div>
         
     <div class="container">
-      <h2>Chart.js — Line Chart Demo 5</h2>	
+      <h2>Chart.js — Line Chart Demo 4</h2>	
     	<div style="width:100%;">
         	<canvas id="myChart4"></canvas>
     	</div>
