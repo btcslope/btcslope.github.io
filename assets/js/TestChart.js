@@ -21,8 +21,8 @@ var myChart = new Chart(ctx, {
     },
     zoom: {
       enabled: true,
-      drag: false,
-      mode: "x",
+      drag: true,
+      mode: "xy",
       limits: {
         max: 10,
         min: 0.5
