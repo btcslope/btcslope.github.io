@@ -11,12 +11,14 @@ js:
   - /assets/js/TestChart4.js
 ext-js: 
   - //cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.4/Chart.min.js
-  - //cdn.jsdelivr.net/npm/chart.js
-  - //cdn.jsdelivr.net/npm/hammerjs
-  - //cdn.jsdelivr.net/npm/chartjs-plugin-zoom
+  - //cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.min.js
+  - //cdn.jsdelivr.net/npm/chart.js@2.9.1
+  - //cdn.jsdelivr.net/npm/hammerjs@2.0.8
+  - //cdn.jsdelivr.net/npm/chartjs-plugin-zoom@0.7.7
 css:
   - /assets/css/index.css
 ---
+
 
 <!-- Info from here: https://www.sitepoint.com/introduction-chart-js-2-0-six-examples/ --!>
 
