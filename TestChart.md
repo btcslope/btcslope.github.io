@@ -9,7 +9,6 @@ js:
   - /assets/js/TestChart2.js
   - /assets/js/TestChart3.js
   - /assets/js/TestChart4.js
-  - /assets/js/TestChart5.js
 ext-js: 
   - //cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.4/Chart.min.js
   - //cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.min.js
@@ -53,18 +52,11 @@ css:
     <div class="container">
       <h2>Chart.js — Line Chart Demo 4</h2>	
     	<div style="width:100%;">
+	        <button onclick="resetZoom()">Reset Zoom</button>
         	<canvas id="myChart4"></canvas>
     	</div>
     </div>
-    
-    <div class="container">
-      <h2>Chart.js — Line Chart Demo 5</h2>	
-    	<div style="width:100%;">
-        	<button onclick="resetZoom()">Reset Zoom</button>
-		<button id="drag-switch" onclick="toggleDragMode()">Disable drag mode</button>
-        	<canvas id="myChart5"></canvas>
-    	</div>
-    </div>
+
     
   <a href="/contact" class="contact-me-btn actionbtn">
     <span class="far fa-envelope" aria-hidden="true"></span>
