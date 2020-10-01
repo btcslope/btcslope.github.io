@@ -64,11 +64,11 @@ var myChart = new Chart(ctx, {
     }
   },
     tooltips: {
-      mode: 'index',
+      mode: 'nearest',
       intersect: false,
     },
    hover: {
       mode: 'nearest',
-      intersect: true
+      intersect: false
     },
 });
