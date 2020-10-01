@@ -38,6 +38,12 @@ css:
       </div>
     </div>
     
+      <div class="container">
+      <h2>Chart.js — Line Chart Demo 3</h2>
+    	<canvas id="myChart3"></canvas>
+      </div>
+    </div>
+        
 
   <a href="/contact" class="contact-me-btn actionbtn">
     <span class="far fa-envelope" aria-hidden="true"></span>
