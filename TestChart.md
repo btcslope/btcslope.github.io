@@ -34,12 +34,14 @@ css:
     
      <div class="container">
       <h2>Chart.js — Line Chart Demo 2</h2>
+      <div>
     	<canvas id="myChart2"></canvas>
       </div>
     </div>
     
       <div class="container">
       <h2>Chart.js — Line Chart Demo 3</h2>
+      <div>
     	<canvas id="myChart3"></canvas>
       </div>
     </div>
