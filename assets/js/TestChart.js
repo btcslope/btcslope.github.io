@@ -61,15 +61,6 @@ var myChart = new Chart(ctx, {
     title: {
       display: true,
       text: "Test Chart"
-    },
-    zoom: {
-      enabled: true,
-      drag: true,
-      mode: "xy",
-      limits: {
-        max: 10,
-        min: 0.5
-      }
     }
   }
 });
