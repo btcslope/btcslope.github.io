@@ -52,7 +52,6 @@ css:
         
     <div class="container">
       <h2>Chart.js — Line Chart Demo 4</h2>	
-	        <button onclick="resetZoom()">Reset Zoom</button>
         	<canvas id="myChart4"></canvas>
     </div>
 
