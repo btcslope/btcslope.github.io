@@ -10,6 +10,7 @@ js:
   - /assets/js/TestChart3.js
   - /assets/js/TestChart4.js
   - /assets/js/TestChart6.js
+  - /assets/js/TestChart7.js
 ext-js: 
   - //cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.4/Chart.min.js
   - //cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.min.js
@@ -60,6 +61,10 @@ css:
 	        <button onclick="resetZoom()">Reset Zoom</button>
         	<canvas id="myChart6"></canvas>
     </div>
+
+
+<br/><!-- Just so that JSFiddle's Result label doesn't overlap the Chart -->
+<div id="chartContainer" style="height: 360px; width: 98%; margin: 2%;"></div>
 
 
   <a href="/contact" class="contact-me-btn actionbtn">
