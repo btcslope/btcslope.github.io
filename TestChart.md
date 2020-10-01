@@ -52,13 +52,15 @@ css:
         
     <div class="container">
       <h2>Chart.js — Line Chart Demo 4</h2>	
+      	<div style="width:100%;">
         	<button onclick="resetZoom()">Reset Zoom</button>
         	<canvas id="myChart4"></canvas>
+	</div>
     </div>
     
     <div class="container">
       <h2>Chart.js — Line Chart Demo 5</h2>	
-    	<div style="width:75%;">
+    	<div style="width:100%;">
         	<button onclick="resetZoom()">Reset Zoom</button>
 		<button id="drag-switch" onclick="toggleDragMode()">Disable drag mode</button>
         	<canvas id="myChart5"></canvas>
