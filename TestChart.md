@@ -61,11 +61,11 @@ css:
 	        <button onclick="resetZoom()">Reset Zoom</button>
         	<canvas id="myChart6"></canvas>
     </div>
-
-
-<br/><!-- Just so that JSFiddle's Result label doesn't overlap the Chart -->
-<div id="chartContainer" style="height: 360px; width: 98%; margin: 2%;"></div>
-
+    
+    <div class="container">
+      <h2>Chart.js — Line Chart Demo 7</h2>	
+	<div id="chartContainer" style="height: 360px; width: 98%; margin: 2%;"></div>
+    </div>
 
   <a href="/contact" class="contact-me-btn actionbtn">
     <span class="far fa-envelope" aria-hidden="true"></span>
