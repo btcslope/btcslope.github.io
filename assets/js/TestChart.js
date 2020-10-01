@@ -43,7 +43,7 @@ Chart.controllers.LineWithLine = Chart.controllers.line.extend({
 
 var ctx = document.getElementById('myChart').getContext('2d');
 var myChart = new Chart(ctx, {
-  type: 'line',
+  type: 'LineWithLine',
   data: {
     labels: ['M', 'T', 'W', 'T', 'F', 'S', 'S'],
     datasets: [{
