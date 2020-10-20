@@ -54,11 +54,9 @@ css:
 
 <div id="services-out" class="page-section">
   <div id="services">
-	  <div class="section-title">Bitcoin Price</div>
+	<div class="section-title">Services</div>
 
-
-
-<!-- Chart -->
+	<!-- Chart -->
 <div class="col-xl-12 col-lg-12">
 	<div class="card shadow mb-4" id="graph1">
 		<div class="card-header py-3 d-flex flex-row align-items-center justify-content-between border-bottom-0" style="background-color: lightgrey">
@@ -81,20 +79,12 @@ css:
 <div class="card-body" style="height: 650px;">
 	<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="/plots/BTCPrice.html" height="100%" width="100%"></iframe>
 </div>
-
-
-  
   </div>
-</div>
-
-</div>
-</div>
-
-  <a href="/contact" class="contact-me-btn actionbtn">
-    <span class="far fa-envelope" aria-hidden="true"></span>
-    CONTACT
-  </a>
-  
+    <a href="/contact" class="contact-me-btn actionbtn">
+      <span class="far fa-envelope" aria-hidden="true"></span>
+      CONTACT
+    </a>
+  </div>
 </div>
 
 <script>
