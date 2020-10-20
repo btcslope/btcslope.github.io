@@ -42,7 +42,7 @@ css:
   </style>
 
 
-<div id="header" markdown="1" style="margin-top:-50px;">
+<div id="header" markdown="1" style="margin-top:-20px;">
 
 # BTCSlope {#title}
 
