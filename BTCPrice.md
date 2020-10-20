@@ -85,6 +85,15 @@ css:
   </div>
 </div>
 
+<div id="contactme-out" class="page-section">
+  <div id="contactme">
+  <a href="/contact" class="contact-me-btn actionbtn">
+    <span class="far fa-envelope" aria-hidden="true"></span>
+    CONTACT
+  </a>
+  </div>
+</div>
+
 <script>
 function findBootstrapEnvironment() {
 	let envs = ['xs', 'sm', 'md', 'lg', 'xl'];
