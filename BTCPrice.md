@@ -82,10 +82,11 @@ css:
 <!-- Chart -->
 <div class="col-xl-12 col-lg-12">
 	<div class="card shadow mb-4" id="graph1">
-		<div class="card-header py-3 d-flex flex-row align-items-center justify-content-between border-bottom-0 bg-dark">
-			<h6 class="m-0 text-light">Stock to flow graph</h6>
+		<div class="card-header py-3 d-flex flex-row align-items-center justify-content-between border-bottom-0">
+			<h6 class="m-0 text-light">Bitcoin Price graph</h6>
 			<div class="dropdown no-arrow">
-				<a class="dropdown-toggle" href="#" role="button" onclick="$('#graph1').toggleClass('fullscreen');window.dispatchEvent(new Event('resize'));"><i class="fas fa-arrows-alt fa-sm fa-fw text-gray-400"></i></a>
+				<a class="btn dropdown" data-toggle="dropdown" href="#" role="button" onclick="$('#graph1').toggleClass('fullscreen');window.dispatchEvent(new Event('resize'));">
+					<i class="fas fa-arrows-alt fa-sm fa-fw text-gray-400"></i></a>
 			</div>
 		</div>
 
@@ -100,7 +101,7 @@ css:
 		</div>
 	</div>
 </div>
-<div class="card-body pb-0 pt-0 pl-0 pr-0" style="height: 100px;">
+<div class="card-body" style="height: 450px;">
 	<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="/plots/BTCPrice.html" height="100%" width="100%"></iframe>
 </div>
 </div>
