@@ -68,26 +68,12 @@ css:
   </div>
 </div>
 
-<div class="embed-responsive embed-responsive-4by3">
-  <div class="section-title">Bitcoin Price</div>
-  <iframe frameborder='0' scrolling='no' src='/plots/BTCPrice.html?autosize=true&link=false&modebar=false&width=100%' class="embed-responsive-item" style="border:none;" ></iframe>
-</div>
-
-<div class="embed-responsive embed-responsive-4by3">
-  <div class="section-title">Bitcoin Price</div>
-  <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="/plots/BTCPrice.html" width="100%" class="embed-responsive-item" style="border:none;" ></iframe>
-</div>
-
-
-<div class="embed-responsive embed-responsive-4by3">
-  <iframe frameborder='0' scrolling='no' src='//plot.ly/~bluprince13/3.embed?autosize=true&link=false&modebar=false&width=100%' class="embed-responsive-item" style="border:none;" ></iframe>
-</div>
 
 <!-- Chart -->
 <div class="col-xl-12 col-lg-12">
 	<div class="card shadow mb-4" id="graph1">
 		<div class="card-header py-3 d-flex flex-row align-items-center justify-content-between border-bottom-0">
-			<h6 class="m-0 text-light">Bitcoin Price graph</h6>
+			<h6 class="m-0 text-primary">Bitcoin Price graph</h6>
 			<div class="dropdown no-arrow">
 				<a class="btn dropdown" data-toggle="dropdown" href="#" role="button" onclick="$('#graph1').toggleClass('fullscreen');window.dispatchEvent(new Event('resize'));">
 					<i class="fas fa-arrows-alt fa-sm fa-fw text-gray-400"></i></a>
@@ -95,7 +81,7 @@ css:
 		</div>
 
 <!-- Card Body -->
-<div class="card-header text-white border-bottom-0" style="background-color: white">
+<div class="card-header text-primary border-bottom-0" style="background-color: white">
 	<div class="dropdown">
 		<button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">USD</button>
 		<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
