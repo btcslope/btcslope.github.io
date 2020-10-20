@@ -68,7 +68,7 @@ css:
 	<div class="dropdown">
 		<button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">USD</button>
 		<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-			<a class="dropdown-item" onclick="location.href = '/plots/BTCPrice.html';">USD</a>
+			<a class="dropdown-item" onclick="location.href = '/BTCPrice';">USD</a>
 			<a class="dropdown-item" onclick="location.href = '/btc/sf_model/AUD';">AUD</a>
 			<a class="dropdown-item" onclick="location.href = '/btc/sf_model/CAD';">CAD</a>
 		</div>
@@ -78,10 +78,6 @@ css:
 	<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="/plots/BTCPrice.html" height="100%" width="100%"></iframe>
 </div>
   </div>
-    <a href="/contact" class="contact-me-btn actionbtn">
-      <span class="far fa-envelope" aria-hidden="true"></span>
-      CONTACT
-    </a>
   </div>
 </div>
 
