@@ -60,7 +60,7 @@ css:
 <!-- Chart -->
 <div class="col-xl-12 col-lg-12">
 	<div class="card shadow mb-4" id="graph1">
-		<div class="card-header py-3 d-flex flex-row align-items-center justify-content-between border-bottom-0">
+		<div class="card-header py-3 d-flex flex-row align-items-center justify-content-between border-bottom-0" style="background-color: lightgrey">
 			<h6 class="m-0 text-primary">Bitcoin Price graph</h6>
 			<div class="dropdown no-arrow">
 				<a class="btn dropdown" data-toggle="dropdown" href="#" role="button" onclick="$('#graph1').toggleClass('fullscreen');window.dispatchEvent(new Event('resize'));">
@@ -69,7 +69,7 @@ css:
 		</div>
 
 <!-- Card Body -->
-<div class="card-header text-primary border-bottom-0" style="background-color: grey">
+<div class="card-header text-primary border-bottom-0" align-items-left style="background-color: lightgrey">
 	<div class="dropdown">
 		<button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">USD</button>
 		<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -84,8 +84,6 @@ css:
 </div>
 </div>
 </div>
-
-
 
 
   <a href="/contact" class="contact-me-btn actionbtn">
