@@ -46,11 +46,11 @@ css:
 
 # BTCSlope {#title}
 
-## Bitcoin Analysis {#subtitle}
+## Bitcoin Price {#subtitle}
 
 </div>
 
-<div id="main-sections" style="margin-top:-30px;">
+<div id="main-sections" style="margin-top:-10px;">
 
 <div id="services-out">
   <div id="services">
