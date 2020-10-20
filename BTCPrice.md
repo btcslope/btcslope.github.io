@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: page
 title: BTCSlope
 subtitle: Bitcoin Price
 meta-title: "Hi, I'm BTCSlope"
