@@ -52,10 +52,11 @@ css:
 
 <div id="main-sections" style="margin-top:-30px;">
 
-<div class="section-title">Bitcoin Price</div>
-
 <div id="services-out" class="page-section">
   <div id="services">
+	  <div class="section-title">Bitcoin Price</div>
+
+
 
 <!-- Chart -->
 <div class="col-xl-12 col-lg-12">
