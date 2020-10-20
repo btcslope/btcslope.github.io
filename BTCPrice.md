@@ -54,8 +54,6 @@ css:
 
 <div id="services-out">
   <div id="services">
-	<div class="section-title">Bitcoin Price</div>
-
 	<!-- Chart -->
 <div class="col-xl-12 col-lg-12">
 	<div class="card shadow mb-4" id="graph1">
@@ -66,7 +64,7 @@ css:
 		</div>
 
 <!-- Card Body -->
-<div class="card-header text-primary border-bottom-0" style="background-color: lightgrey">
+<div class="card-header text-primary border-bottom-0" style="background-color: white">
 	<div class="dropdown">
 		<button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">USD</button>
 		<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
