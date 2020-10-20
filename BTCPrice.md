@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: base
 title: BTCSlope
 subtitle: Bitcoin Price
 meta-title: "Hi, I'm BTCSlope"
@@ -42,7 +42,7 @@ css:
   </style>
 
 
-<div id="header" markdown="1">
+<div id="header" markdown="1" style="margin-top:-50px;">
 
 # BTCSlope {#title}
 
