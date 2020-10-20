@@ -74,7 +74,7 @@ css:
 		</div>
 	</div>
 </div>
-<div class="card-body" style="height: 1650px;">
+<div class="card-body" style="height: 450px;">
 	<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="/plots/BTCPrice.html" height="100%" width="100%"></iframe>
 </div>
   </div>
