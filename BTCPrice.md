@@ -56,18 +56,6 @@ css:
   <div id="services">
 	<div class="section-title">Bitcoin Price</div>
 	
-  {% raw %}
-  <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="/plots/BTCPrice.html" height="525" width="100%"></iframe>
-  {% endraw %}
-
-  <a href="/contact" class="contact-me-btn actionbtn">
-    <span class="far fa-envelope" aria-hidden="true"></span>
-    CONTACT
-  </a>
-  
-  </div>
-</div>
-
 
 <!-- Chart -->
 <div class="col-xl-12 col-lg-12">
@@ -81,7 +69,7 @@ css:
 		</div>
 
 <!-- Card Body -->
-<div class="card-header text-primary border-bottom-0" style="background-color: white">
+<div class="card-header text-primary border-bottom-0" style="background-color: grey">
 	<div class="dropdown">
 		<button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">USD</button>
 		<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -96,6 +84,20 @@ css:
 </div>
 </div>
 </div>
+
+
+
+
+  <a href="/contact" class="contact-me-btn actionbtn">
+    <span class="far fa-envelope" aria-hidden="true"></span>
+    CONTACT
+  </a>
+  
+  </div>
+</div>
+
+
+
 </div>
 
 <script>
