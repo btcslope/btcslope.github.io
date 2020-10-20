@@ -87,7 +87,7 @@ css:
 			<div class="dropdown no-arrow">
 				<a class="dropdown-toggle" href="#" role="button" onclick="$('#graph1').toggleClass('fullscreen');window.dispatchEvent(new Event('resize'));"><i class="fas fa-arrows-alt fa-sm fa-fw text-gray-400"></i></a>
 			</div>
-		/div>
+		</div>
 
 <!-- Card Body -->
 <div class="card-header text-white border-bottom-0" style="background-color: black">
@@ -105,7 +105,7 @@ css:
 </div>
 </div>
 </div>
-
+</div>
 
 <script>
 function findBootstrapEnvironment() {
