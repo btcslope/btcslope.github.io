@@ -82,10 +82,7 @@ css:
 	<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="/plots/BTCPrice.html" height="100%" width="100%"></iframe>
 </div>
 
-  <a href="/contact" class="contact-me-btn actionbtn">
-    <span class="far fa-envelope" aria-hidden="true"></span>
-    CONTACT
-  </a>
+
   
   </div>
 </div>
@@ -93,6 +90,11 @@ css:
 </div>
 </div>
 
+  <a href="/contact" class="contact-me-btn actionbtn">
+    <span class="far fa-envelope" aria-hidden="true"></span>
+    CONTACT
+  </a>
+  
 </div>
 
 <script>
