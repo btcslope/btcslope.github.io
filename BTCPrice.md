@@ -7,6 +7,36 @@ full-width: true
 css:
   - /assets/css/index.css
 ---
+<script type = "text/javascript">
+	function AutoRefresh(t) {
+		setTimeout("location.reload(true);", t);
+        }
+</script>
+	
+<style>
+	html,body {
+		height:100%;
+		margin:0;
+	}
+	#graph1.fullscreen{
+	    z-index: 9999; 
+	    width: 100%; 
+	    height: 100%;
+	    position: fixed;
+	    top: 0px; 
+	    left: 0px;
+	    padding: 0px;
+	    bottom: 0px;
+	    float: left;
+		min-height: 100%;
+	}
+	#graph1 {
+		height: 650px;
+	}
+	#link_graph { color: #FF0000; }
+	#link_graph:hover { color: #00FF00; }
+  </style>
+
 
 <div id="header" markdown="1">
 
@@ -49,59 +79,58 @@ css:
   <iframe frameborder='0' scrolling='no' src='//plot.ly/~bluprince13/3.embed?autosize=true&link=false&modebar=false&width=100%' class="embed-responsive-item" style="border:none;" ></iframe>
 </div>
 
-
-
-
-
 <!-- Chart -->
-				<div class="col-xl-12 col-lg-12">
-					<div class="card shadow mb-4 border-dark" id="graph1">
-						<div class="card-header py-3 d-flex flex-row align-items-center justify-content-between border-bottom-0 bg-dark">
-							<h6 class="m-0 text-light">Stock to flow graph</h6>
-							<div class="dropdown no-arrow">
-								<a class="dropdown-toggle" href="#" role="button" onclick="$('#graph1').toggleClass('fullscreen');window.dispatchEvent(new Event('resize'));">
-									<i class="fas fa-arrows-alt fa-sm fa-fw text-gray-400"></i>
-								</a>
-							</div>
-						</div>
-			
-						<!-- Card Body -->
-						<div class="card-header text-white border-bottom-0" style="background-color: black">
-							<div class="dropdown">
-								<button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    								USD
-  								</button>
-								<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-									<a class="dropdown-item" onclick="location.href = '/btc/sf_model/';">USD</a>
-																		<a class="dropdown-item" onclick="location.href = '/btc/sf_model/AUD';">AUD</a>
-																		<a class="dropdown-item" onclick="location.href = '/btc/sf_model/CAD';">CAD</a>
-																		<a class="dropdown-item" onclick="location.href = '/btc/sf_model/CHF';">CHF</a>
-																		<a class="dropdown-item" onclick="location.href = '/btc/sf_model/CNY';">CNY</a>
-																		<a class="dropdown-item" onclick="location.href = '/btc/sf_model/DKK';">DKK</a>
-																		<a class="dropdown-item" onclick="location.href = '/btc/sf_model/EUR';">EUR</a>
-																		<a class="dropdown-item" onclick="location.href = '/btc/sf_model/GBP';">GBP</a>
-																		<a class="dropdown-item" onclick="location.href = '/btc/sf_model/HUF';">HUF</a>
-																		<a class="dropdown-item" onclick="location.href = '/btc/sf_model/JPY';">JPY</a>
-																		<a class="dropdown-item" onclick="location.href = '/btc/sf_model/KRW';">KRW</a>
-																		<a class="dropdown-item" onclick="location.href = '/btc/sf_model/NZD';">NZD</a>
-																		<a class="dropdown-item" onclick="location.href = '/btc/sf_model/RUB';">RUB</a>
-																		<a class="dropdown-item" onclick="location.href = '/btc/sf_model/SEK';">SEK</a>
-																		<a class="dropdown-item" onclick="location.href = '/btc/sf_model/TRY';">TRY</a>
-																		<a class="dropdown-item" onclick="location.href = '/btc/sf_model/ZAR';">ZAR</a>
-																	</div>
-							</div>
-						</div>
-						<div class="card-body pb-0 pt-0 pl-0 pr-0" style="height: 100px;">
-							<div id="graph" style="height: 100%; width:100%;"></div>
-						</div>
-					</div>
-				</div>
+<div class="col-xl-12 col-lg-12">
+	<div class="card shadow mb-4 border-dark" id="graph1">
+		<div class="card-header py-3 d-flex flex-row align-items-center justify-content-between border-bottom-0 bg-dark">
+			<h6 class="m-0 text-light">Stock to flow graph</h6>
+			<div class="dropdown no-arrow">
+				<a class="dropdown-toggle" href="#" role="button" onclick="$('#graph1').toggleClass('fullscreen');window.dispatchEvent(new Event('resize'));"><i class="fas fa-arrows-alt fa-sm fa-fw text-gray-400"></i></a>
+			</div>
+		/div>
 
-
-
-
-
-
-
-
+<!-- Card Body -->
+<div class="card-header text-white border-bottom-0" style="background-color: black">
+	<div class="dropdown">
+		<button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">USD</button>
+		<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+			<a class="dropdown-item" onclick="location.href = '/btc/sf_model/';">USD</a>
+			<a class="dropdown-item" onclick="location.href = '/btc/sf_model/AUD';">AUD</a>
+			<a class="dropdown-item" onclick="location.href = '/btc/sf_model/CAD';">CAD</a>
+		</div>
+	</div>
 </div>
+<div class="card-body pb-0 pt-0 pl-0 pr-0" style="height: 100px;">
+	<div id="graph" style="height: 100%; width:100%;"></div>
+</div>
+</div>
+</div>
+</div>
+
+<script>
+function findBootstrapEnvironment() {
+	let envs = ['xs', 'sm', 'md', 'lg', 'xl'];
+	let el = document.createElement('div');
+	document.body.appendChild(el);
+	let curEnv = envs.shift();
+	for (let env of envs.reverse()) {
+		el.classList.add(`d-${env}-none`);
+		if (window.getComputedStyle(el).display === 'none') {
+			curEnv = env;
+			break;
+		}
+	}
+	document.body.removeChild(el);
+	return curEnv;
+}
+
+env_size = findBootstrapEnvironment();
+if (env_size == "xs") {
+	document.getElementById("graph1").style.height="350px";
+	Plotly.newPlot('graph', data_mobile, layout_mobile, {responsive: true, modeBarButtonsToRemove: ['toImage', 'hoverCompareCartesian', 'hoverClosest2d', 'toggleSpikelines', 'lasso2d', 'select2d', 'hoverClosestCartesian'], displaylogo: false});
+}
+else {
+	document.getElementById("graph1").style.height="650px";
+	Plotly.newPlot('graph', data, layout, {responsive: true, modeBarButtonsToRemove: ['toImage', 'hoverCompareCartesian', 'hoverClosest2d', 'toggleSpikelines', 'lasso2d', 'select2d', 'hoverClosestCartesian'], displaylogo: false});
+		}
+</script>
