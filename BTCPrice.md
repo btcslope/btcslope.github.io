@@ -18,6 +18,10 @@ css:
 		height:100%;
 		margin:0;
 	}
+	.btn:focus,.btn:active {
+   		outline: none !important;
+   		box-shadow: none;
+	}
 	#graph1.fullscreen{
 	    z-index: 9999; 
 	    width: 100%; 
@@ -91,7 +95,7 @@ css:
 		</div>
 
 <!-- Card Body -->
-<div class="card-header text-white border-bottom-0" style="background-color: black">
+<div class="card-header text-white border-bottom-0" style="background-color: white">
 	<div class="dropdown">
 		<button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">USD</button>
 		<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
