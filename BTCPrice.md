@@ -50,7 +50,7 @@ css:
 
 </div>
 
-<div id="main-sections" style="margin-top:-10px;">
+<div id="main-sections" style="margin-top:-50px;">
 
 <div id="services-out">
   <div id="services">
