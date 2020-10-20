@@ -44,9 +44,7 @@ css:
 
 <div id="header" markdown="1" style="margin-top:-20px;">
 
-# BTCSlope {#title}
-
-## Bitcoin Price {#subtitle}
+# Bitcoin Price {#title}
 
 </div>
 
