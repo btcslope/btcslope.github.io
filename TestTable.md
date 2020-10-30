@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Test Table
-
+head-extra: fresh-table-includes.html
 ---
 
 
-<table class="table table-striped table-dark">
+<table>
         <thead>
             <tr>
                 <th>Name</th>
