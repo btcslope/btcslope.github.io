@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Test Table
+
+head-extra: fresh-table-includes.html
   
 ext-css:
   - //cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css
@@ -493,9 +495,3 @@ ext-js:
         </tfoot>
     </table>
     
-    
-<script type="text/javascript" class="init">
-  $(document).ready(function() {
-      $('#example').DataTable();
-  } );
-</script>
