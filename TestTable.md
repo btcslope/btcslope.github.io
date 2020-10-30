@@ -4,7 +4,15 @@ title: Test Table
 
 head-extra: fresh-table-includes.html
   
+ext-css:
+  - //cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css
+  - //cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js 
 
+ext-js:
+  - //code.jquery.com/jquery-3.5.1.js
+  - //cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js
+  - //cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js
+  
 ---
 
 <table id="example" class="table table-striped table-bordered" style="width:100%">
