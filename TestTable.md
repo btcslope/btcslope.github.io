@@ -10,6 +10,7 @@ ext-js:
 head-extra: fresh-table-includes.html
 
 css:
+  - /assets/css/index.css
   - /assets/css/fresh-bootstrap-table.css
   
 ext-css:
@@ -17,7 +18,7 @@ ext-css:
 
 ---
 
-<div class="fresh-table full-color-orange">
+<div class="fresh-table full-color-blue">
   <!--
     Available colors for the full background: full-color-blue, full-color-azure, full-color-green, full-color-red, full-color-orange
     Available colors only for the toolbar: toolbar-color-blue, toolbar-color-azure, toolbar-color-green, toolbar-color-red, toolbar-color-orange
