@@ -6,6 +6,9 @@ ext-css:
   - //cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css
   - //cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js 
 
+ext-js:
+  - //cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js
+  - //cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js
 ---
 
 <script type="text/javascript">
