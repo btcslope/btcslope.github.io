@@ -7,15 +7,10 @@ ext-css:
   - //cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js 
 
 ext-js:
+  - //code.jquery.com/jquery-3.5.1.js
   - //cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js
   - //cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js
 ---
-
-<script type="text/javascript">
-$(document).ready(function() {
-    $('#example').DataTable();
-} );
-</script>
 
 <table id="example" class="table table-striped table-bordered" style="width:100%">
         <thead>
@@ -497,3 +492,10 @@ $(document).ready(function() {
             </tr>
         </tfoot>
     </table>
+    
+    
+<script type="text/javascript" class="init">
+  $(document).ready(function() {
+      $('#example').DataTable();
+  } );
+</script>
