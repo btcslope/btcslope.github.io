@@ -2,10 +2,6 @@
 layout: page
 title: Test Table
 
-ext-js: 
-  - //code.jquery.com/jquery-3.3.1.min.js
-  - //cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js
-  - //unpkg.com/bootstrap-table/dist/bootstrap-table.min.js
 
 head-extra: fresh-table-includes.html
 
