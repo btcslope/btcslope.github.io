@@ -20,6 +20,7 @@ navbar-links:
     - Learn markdown: "https://www.markdowntutorial.com/"
     - BTC Price: "BTCPrice"
     - Test Chartjs: "TestChart"
+    - BTC ATH: "BtcAth"
   Author's home: "https://deanattali.com"
 
 # --- Logo --- #
