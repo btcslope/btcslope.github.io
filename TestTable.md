@@ -6,7 +6,6 @@ title: Test Table
 head-extra: fresh-table-includes.html
 
 css:
-  - /assets/css/index.css
   - /assets/css/fresh-bootstrap-table.css
   
 ext-css:
