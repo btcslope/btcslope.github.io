@@ -21,6 +21,7 @@ navbar-links:
     - BTC Price: "BTCPrice"
     - Test Chartjs: "TestChart"
     - BTC ATH: "BtcAth"
+    - Test Table: "TestTable"
   Author's home: "https://deanattali.com"
 
 # --- Logo --- #
