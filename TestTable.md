@@ -1,13 +1,7 @@
 ---
 layout: page
 title: Test Table
-js: 
-  - /assets/js/TestChart.js
-  - /assets/js/TestChart2.js
-  - /assets/js/TestChart3.js
-  - /assets/js/TestChart4.js
-  - /assets/js/TestChart6.js
-  - /assets/js/TestChart7.js
+
 ext-js: 
   - //code.jquery.com/jquery-3.3.1.min.js
   - //cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js
@@ -17,6 +11,7 @@ head-extra: fresh-table-includes.html
 
 css:
   - /assets/css/fresh-bootstrap-table.css
+  
 ext-css:
   - //cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css
 
