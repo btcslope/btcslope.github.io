@@ -11,35 +11,6 @@ ext-css:
 ---
 
 
-<div class="container">
-  <main role="main" class="pb-3">
-            
-
-    <div class="container text-center">
-        <small>USD/BTC: 7,225 sats</small>
-        &nbsp;•&nbsp;
-        <small>Currency Ranking: 31</small>
-        &nbsp;•&nbsp;
-        <small>Country Ranking: 41</small>
-        &nbsp;•&nbsp;
-        <small>Fiat Market Cap: 8,137,626,837 BTC </small>
-        &nbsp;•&nbsp;
-        <small>BTC Dominance: 0.23 %</small>
-    </div>
-
-
-<div class="container text-center">
-    <h1 class="jumbotron-heading">Top Fiat Currencies by Market Capitalization</h1>
-    <p class="lead text-muted">Major fiat currency market cap in BTC</p>
-
-    <ul class="nav nav-tabs mb-1">
-        <li class="nav-item">
-            <a class="nav-link active" href="/">Fiat Currencies</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="/Country">Countries</a>
-        </li>
-    </ul>
 
     <div class="table dt-responsive">
         <table id="currency-ranking" class="table table-hover">
@@ -1217,12 +1188,7 @@ ext-css:
             </tbody>
         </table>
     </div>
-    <p class="text-right"><small>2020-10-31T16:40:58.6285663Z</small></p>
-</div>
 
-
-  </main>
-</div>
     
 <script>
     $(document).ready(function () {
