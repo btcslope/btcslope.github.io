@@ -4,7 +4,7 @@ title: DataTables Test
 datatable: true
 ---
 
-<div class="datatable-begin"></div>
+<div class="table dt-responsive"></div>
 
 Food    | Description                           | Category | Sample type
 ------- | ------------------------------------- | -------- | -----------
@@ -13,4 +13,6 @@ Bananas | A long and curved, often-yellow ...   | Fruit    | Snow
 Kiwis   | A small, hairy-skinned sweet ...      | Fruit    | Golden
 Oranges | A spherical, orange-colored sweet ... | Fruit    | Navel
 
-<div class="datatable-end"></div>
+<div class="table dt-responsive"></div>
+
+
