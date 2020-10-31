@@ -8,7 +8,7 @@ ext-js:
   - //cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js
 ---
 
-<table class="display">
+<table id="currency-ranking" class="table table-hover">
 <colgroup>
 <col width="30%" />
 <col width="70%" />
@@ -33,7 +33,7 @@ ext-js:
 </table>
 
 <script>
-$('table.display').DataTable( {
+$('#currency-ranking').DataTable({
   "paging": false,
   "info": false,
   fixedHeader: true,
