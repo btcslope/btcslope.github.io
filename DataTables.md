@@ -1,10 +1,13 @@
 ---
-layout: page
+layout: base
 title: DataTables Test
 ext-js: 
   - //cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js
   - //cdn.datatables.net/fixedheader/3.1.7/js/dataTables.fixedHeader.min.js
   - //cdn.datatables.net/responsive/2.2.6/js/dataTables.responsive.min.js
+
+css:
+  - /assets/css/index.css
   
 ext-css:
   - //cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css
@@ -13,10 +16,16 @@ ext-css:
  
 ---
 
+<div id="header" markdown="1" style="margin-top:-20px;text-align: center;">
 
-<div class="row">
-    <h1 class="jumbotron-heading">Top Fiat Currencies by Market Capitalization</h1>
-    <p class="lead text-muted">Major fiat currency market cap in BTC</p>
+# Top Fiat Currencies by Market Capitalization {#title}
+
+</div>
+
+<div id="main-sections" style="margin-top:-80px;">
+
+<div id="services-out">
+  <div id="services">
 
     
 <div class="table dt-responsive">
@@ -1196,6 +1205,8 @@ ext-css:
     </table>
   </div>
       <p class="text-right"><small>2020-10-31T16:40:58.6285663Z</small></p>
+</div>
+</div>
 </div>
 
     
