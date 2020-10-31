@@ -1,9 +1,14 @@
 ---
 layout: page
 title: DataTables Test
+ext-css:
+  - //cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css
+ext-js:
+  - //code.jquery.com/jquery-3.5.1.js
+  - //cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js
 ---
 
-<table class="display" id="my-table">
+<table class="display">
 <colgroup>
 <col width="30%" />
 <col width="70%" />
@@ -27,7 +32,6 @@ title: DataTables Test
 </tbody>
 </table>
 
-$(document).ready(function () {
-  $("#my-table > table").DataTable();
-});
-
+<script>
+$('table.display').DataTable()
+</script>
