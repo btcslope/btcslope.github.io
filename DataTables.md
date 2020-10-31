@@ -14,18 +14,10 @@ ext-css:
 ---
 
 
-<div class="container text-center">
+<div class="row">
     <h1 class="jumbotron-heading">Top Fiat Currencies by Market Capitalization</h1>
     <p class="lead text-muted">Major fiat currency market cap in BTC</p>
 
-    <ul class="nav nav-tabs mb-1">
-        <li class="nav-item">
-            <a class="nav-link active" href="/">Fiat Currencies</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="/Country">Countries</a>
-        </li>
-    </ul>
     
 <div class="table dt-responsive">
   <table id="currency-ranking" class="table table-hover">
