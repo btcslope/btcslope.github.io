@@ -2,13 +2,31 @@
 layout: page
 title: DataTables Test
 ext-js: 
-  - //cdn.datatables.net/v/dt/dt-1.10.22/fh-3.1.7/r-2.2.6/datatables.min.js
+  - //cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js
+  - //cdn.datatables.net/fixedheader/3.1.7/js/dataTables.fixedHeader.min.js
+  - //cdn.datatables.net/responsive/2.2.6/js/dataTables.responsive.min.js
   
 ext-css:
-  - //cdn.datatables.net/v/dt/dt-1.10.22/fh-3.1.7/r-2.2.6/datatables.min.css
+  - //cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css
+  - //cdn.datatables.net/fixedheader/3.1.7/css/fixedHeader.dataTables.min.css
+  - //cdn.datatables.net/responsive/2.2.6/css/responsive.dataTables.min.css
  
 ---
 
+
+<div class="container text-center">
+    <h1 class="jumbotron-heading">Top Fiat Currencies by Market Capitalization</h1>
+    <p class="lead text-muted">Major fiat currency market cap in BTC</p>
+
+    <ul class="nav nav-tabs mb-1">
+        <li class="nav-item">
+            <a class="nav-link active" href="/">Fiat Currencies</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/Country">Countries</a>
+        </li>
+    </ul>
+    
 <div class="table dt-responsive">
   <table id="currency-ranking" class="table table-hover">
             <thead>
@@ -1183,7 +1201,9 @@ ext-css:
                     <td class="text-right">Unlimited</td>
                 </tr>
             </tbody>
-  </table>
+    </table>
+  </div>
+      <p class="text-right"><small>2020-10-31T16:40:58.6285663Z</small></p>
 </div>
 
     
