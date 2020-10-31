@@ -1,6 +1,7 @@
 ---
 layout: page
 title: DataTables Test
+datatable: true
 ---
 
 <div class="datatable-begin"></div>
