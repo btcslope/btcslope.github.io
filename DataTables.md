@@ -33,5 +33,10 @@ ext-js:
 </table>
 
 <script>
-$('table.display').DataTable()
+$('table.display').DataTable( {
+  "paging": false,
+  "info": false,
+  fixedHeader: true,
+  responsive: true
+  } );
 </script>
