@@ -1,12 +1,10 @@
 ---
-layout: base
+layout: page
 title: DataTables Test
 ext-js: 
   - //cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js
   - //cdn.datatables.net/fixedheader/3.1.7/js/dataTables.fixedHeader.min.js
   - //cdn.datatables.net/responsive/2.2.6/js/dataTables.responsive.min.js
-css:
-  - /assets/css/index.css
 ext-css:
   - //cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css
   - //cdn.datatables.net/fixedheader/3.1.7/css/fixedHeader.dataTables.min.css
