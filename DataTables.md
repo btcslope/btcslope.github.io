@@ -7,6 +7,7 @@ ext-css:
 ext-js:
   - //code.jquery.com/jquery-3.5.1.js
   - //cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js
+  - //cdn.datatables.net/plug-ins/f2c75b7247b/integration/bootstrap/3/dataTables.bootstrap.js
   - //cdn.datatables.net/responsive/1.0.4/js/dataTables.responsive.js
 ---
 
