@@ -8,7 +8,7 @@ ext-js:
   - //cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js
 ---
 
-<table id="currency-ranking" class="table table-hover">
+<table id="currency-ranking" class="table table-hover dt-responsive">
             <thead>
                 <tr>
                     <th scope="col" class="text-left">#</th>
