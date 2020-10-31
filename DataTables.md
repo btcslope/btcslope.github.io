@@ -3,9 +3,11 @@ layout: page
 title: DataTables Test
 ext-css:
   - //cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css
+  - //cdn.datatables.net/responsive/1.0.4/css/dataTables.responsive.css
 ext-js:
   - //code.jquery.com/jquery-3.5.1.js
   - //cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js
+  - //cdn.datatables.net/responsive/1.0.4/js/dataTables.responsive.js
 ---
 
 <table id="currency-ranking" class="table table-hover dt-responsive">
