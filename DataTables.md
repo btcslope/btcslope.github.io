@@ -1198,17 +1198,13 @@ ext-css:
 	    </div>
 
     
-
-
-
-    
 <script>
-    $(document).ready(function () {
-        $('#currency-ranking').DataTable({
-            "paging": false,
-            "info": false,
-            fixedHeader: true,
-            responsive: true
-        });
-    });
+  $(document).ready(function () {
+    $('#currency-ranking').DataTable({
+	"paging": false,
+        "info": false,
+        fixedHeader: true,
+        responsive: true
+	});
+  });
 </script>
