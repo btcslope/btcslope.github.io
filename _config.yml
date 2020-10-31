@@ -23,6 +23,7 @@ navbar-links:
     - BTC ATH: "BtcAth"
     - Test Table: "TestTable"
     - Test Table 2: "TestTable2"
+    - DataTables: "DataTables"
   Author's home: "https://deanattali.com"
 
 # --- Logo --- #
