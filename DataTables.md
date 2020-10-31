@@ -10,10 +10,8 @@ ext-css:
  
 ---
 
-
-
-    <div class="table dt-responsive">
-        <table id="currency-ranking" class="table table-hover">
+<div class="table dt-responsive">
+  <table id="currency-ranking" class="table table-hover">
             <thead>
                 <tr>
                     <th scope="col" class="text-left">#</th>
@@ -1186,8 +1184,8 @@ ext-css:
                     <td class="text-right">Unlimited</td>
                 </tr>
             </tbody>
-        </table>
-    </div>
+  </table>
+</div>
 
     
 <script>
