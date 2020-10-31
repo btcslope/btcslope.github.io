@@ -1,7 +1,6 @@
 ---
 layout: page
 title: DataTables Test
-full-width: true
 ext-js: 
   - //cdn.datatables.net/v/dt/dt-1.10.22/fh-3.1.7/r-2.2.6/datatables.min.js
   
