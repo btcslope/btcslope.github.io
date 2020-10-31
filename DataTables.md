@@ -6,7 +6,6 @@ ext-css:
   - //cdn.datatables.net/1.10.22/css/dataTables.bootstrap4.min.css
   - //cdn.datatables.net/responsive/2.2.6/css/responsive.bootstrap4.min.css
 ext-js:
-  - //code.jquery.com/jquery-3.5.1.js
   - //cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js
   - //cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js
   - //cdn.datatables.net/responsive/2.2.6/js/dataTables.responsive.min.js
