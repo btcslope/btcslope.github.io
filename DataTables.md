@@ -3,14 +3,14 @@ layout: page
 title: DataTables Test
 full-width: true
 ext-js: 
-  - //cdn.datatables.net/responsive/2.2.6/js/dataTables.responsive.js
+  - //cdn.datatables.net/v/dt/dt-1.10.22/datatables.min.js
 ext-css:
-  - //cdn.datatables.net/responsive/2.2.6/css/dataTables.responsive.css
+  - //cdn.datatables.net/v/dt/dt-1.10.22/r-2.2.6/datatables.min.css
 ---
 
 
-    <div class="container">
-        <main role="main" class="pb-3">
+<div class="container">
+  <main role="main" class="pb-3">
             
 
     <div class="container text-center">
@@ -1219,8 +1219,8 @@ ext-css:
 </div>
 
 
-        </main>
-    </div>
+  </main>
+</div>
     
 <script>
     $(document).ready(function () {
