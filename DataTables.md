@@ -5,30 +5,24 @@ ext-js:
   - //cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js
   - //cdn.datatables.net/fixedheader/3.1.7/js/dataTables.fixedHeader.min.js
   - //cdn.datatables.net/responsive/2.2.6/js/dataTables.responsive.min.js
-
 css:
   - /assets/css/index.css
-  
 ext-css:
   - //cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css
   - //cdn.datatables.net/fixedheader/3.1.7/css/fixedHeader.dataTables.min.css
   - //cdn.datatables.net/responsive/2.2.6/css/responsive.dataTables.min.css
- 
 ---
 
-<div id="header" markdown="1" style="margin-top:-20px;text-align: center;">
+<div id="main-sections" style="margin-top:-30px;">
 
-# Top Fiat Currencies by Market Capitalization {#title}
-
-</div>
-
-<div id="main-sections" style="margin-top:-80px;">
-
-<div id="services-out">
+<div id="services-out" class="page-section">
   <div id="services">
-
-    
-<div class="table dt-responsive">
+	<div class="section-title">Test CHart</div>
+	
+    <div class="container">
+      <h2>Fiat Currencies</h2>
+      <div>
+        <div class="table dt-responsive">
   <table id="currency-ranking" class="table table-hover">
             <thead>
                 <tr>
@@ -1204,10 +1198,18 @@ ext-css:
             </tbody>
     </table>
   </div>
-      <p class="text-right"><small>2020-10-31T16:40:58.6285663Z</small></p>
+      </div>
+    </div>
+        
+  <a href="/contact" class="contact-me-btn actionbtn">
+    <span class="far fa-envelope" aria-hidden="true"></span>
+    CONTACT
+  </a>
+    
 </div>
 </div>
 </div>
+
 
     
 <script>
