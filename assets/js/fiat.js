@@ -4,7 +4,7 @@
             "info": false,
             fixedHeader: {
                 header: true,
-                headerOffset: 50
+                headerOffset: $('#main-navbar').height()
             },
             responsive: true
         });
