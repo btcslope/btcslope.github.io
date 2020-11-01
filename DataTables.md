@@ -5,6 +5,8 @@ ext-css:
   - //cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css
   - //cdn.datatables.net/1.10.22/css/dataTables.bootstrap4.min.css
   - //cdn.datatables.net/responsive/2.2.6/css/responsive.bootstrap4.min.css
+js: 
+  - /assets/js/DataTable.js
 ext-js:
   - //cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js
   - //cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js
@@ -657,9 +659,3 @@ ext-js:
             </tr>
         </tbody>
     </table>
-
-<script>
-$(document).ready(function() {
-    $('#example').DataTable();
-} );
-</script>
