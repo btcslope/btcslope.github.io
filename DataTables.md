@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: base
 title: DataTables Test
 ext-css:
   - //cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css
