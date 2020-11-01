@@ -4,7 +4,7 @@
             "info": false,
             fixedHeader: {
                 header: true,
-                headerOffset: 3.125rem
+                headerOffset: 50
             },
             responsive: true
         });
