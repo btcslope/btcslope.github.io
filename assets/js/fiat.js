@@ -2,7 +2,10 @@
         $('#currency-ranking').DataTable({
             "paging": false,
             "info": false,
-            fixedHeader: true,
+            fixedHeader: {
+                header: true,
+                headerOffset: $('#main-navbar').height()
+            },
             responsive: true
         });
     });
