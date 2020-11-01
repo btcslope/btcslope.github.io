@@ -7,7 +7,6 @@ ext-css:
 js: 
   - /assets/js/fiat.js
 ext-js:
-  - //cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js
   - //stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js
   - //cdn.datatables.net/v/dt/dt-1.10.18/fh-3.1.4/r-2.2.2/datatables.min.js
 ---
