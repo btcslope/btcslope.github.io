@@ -17,7 +17,7 @@ exercises: [Burpees, Squats, Pull ups, Push ups]
 reps: [50, 40, 30, 20, 10]
 ---
 
-<table id="example" class="table dt-responsive table-hover" style="width:100%">
+<table id="btcath" class="table dt-responsive table-hover">
   <thead>
     <tr>
       <th scope="col">Round</th>
