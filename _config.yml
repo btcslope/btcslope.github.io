@@ -24,7 +24,7 @@ navbar-links:
     - Test Table: "TestTable"
     - Test Table 2: "TestTable2"
     - DataTables: "DataTables"
-    - Fiat: "Fiat"
+    - Fiat: "fiat"
   Author's home: "https://deanattali.com"
 
 # --- Logo --- #
