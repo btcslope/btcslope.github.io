@@ -1,14 +1,11 @@
-$(window).resize(function() {
-    var top_nav_height = $("#main-navbar").height();
-});
-
     $(document).ready(function () {
+        var headerHeight = $("#main-navbar").outerHeight();
         $('#currency-ranking').DataTable({
             "paging": false,
             "info": false,
             fixedHeader: {
                 header: true,
-                headerOffset: top_nav_height
+                headerOffset: headerHeight
             },
             responsive: true
         });
