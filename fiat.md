@@ -1,5 +1,5 @@
 ---
-layout: minimal2
+layout: base
 title: DataTables Test
 ext-css:
   - //stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css
