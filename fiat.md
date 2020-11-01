@@ -40,7 +40,7 @@ ext-js:
     </ul>
 
     <div class="table dt-responsive">
-        <table id="currency-ranking" class="table table-hover">
+        <table id="currency-ranking" class="table table-hover" style="width:100%">
             <thead>
                 <tr>
                     <th scope="col" class="text-left">#</th>
