@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom {% if page.nav-short %}top-nav-short-permanent{% else %}top-nav-regular{% endif %}">
+<nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom fh-fixedHeader {% if page.nav-short %}top-nav-short-permanent{% else %}top-nav-regular{% endif %}">
 
   {%- if site.title-img -%}
     <a class="navbar-brand navbar-brand-logo" href="{{ '' | absolute_url }}"><img alt="{{ site.title }} Logo" src="{{ site.title-img }}"/></a>
@@ -10,7 +10,7 @@
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse fh-fixedHeader" id="main-navbar">
+  <div class="collapse navbar-collapse" id="main-navbar">
     <ul class="navbar-nav ml-auto">
       {%- for link in site.navbar-links -%}
         {%- if link[1].first %}
