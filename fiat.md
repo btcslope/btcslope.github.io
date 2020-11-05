@@ -12,6 +12,7 @@ ext-js:
   - //cdn.datatables.net/fixedheader/3.1.7/js/dataTables.fixedHeader.min.js
 ---
 
+<br><br>
 
 <div class="container text-center">
         <small>USD/BTC: 7,251 sats</small>
