@@ -9,6 +9,7 @@ js:
 ext-js:
   - //stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js
   - //cdn.datatables.net/v/dt/dt-1.10.18/fh-3.1.4/r-2.2.2/datatables.min.js
+  - //cdn.datatables.net/fixedheader/3.1.7/js/dataTables.fixedHeader.min.js
 ---
 
 
